@@ -1,8 +1,8 @@
 import React from 'react'
 
-import Title from './Title'
+// import Title from './Title'
 import Nav from './Nav'
-import Footer from './Footer'
+// import Footer from './Footer'
 
 class Home extends React.Component {
 
@@ -11,8 +11,8 @@ class Home extends React.Component {
             <React.Fragment> 
                     <Nav/>
                 <div>
-                    <Title />
-                    <Footer />
+                    {/* <Title /> */}
+                    {/* <Footer /> */}
                 </div>  
             </React.Fragment>
         )

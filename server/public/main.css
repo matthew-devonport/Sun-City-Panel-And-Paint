@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: whitesmoke;
+    background-color: orange;
+    font-family: 'Orbitron', 'Arial', 'sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    /* overflow-y: hidden; */
+}
+
+
+/*------ Reusable ----- */
+
+.fixed {
+    display: flex;
+    background-color: transparent;
+    position: fixed;
+  }
+
+/*------ Nav ------ */
+
+.leftNav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    padding-right: 100%;
+    padding-bottom: 1%;
+  }
+
+  .leftLogos {
+    position: relative;
+    height: 6.5vh;
+    max-height: 6.5vw;
+    width: auto;
+    margin-left: 2vh;
+    margin-top: 1vh;
+    background-color: white;
+  }
+
+  .flexBox {
+    display: flex;
+    justify-content: flex-end;
+    background: white;
+}
+
+.navLinks {
+    color: black;
+    font-family: 'Orbitron', 'Arial', 'sans-serif';
+    display: flex;
+    font-size: 1rem;
+    width: auto;
+    margin-right: 4vh;
+    margin-top: 3vh;
+    border-radius: 10px;
+    transition: box-shadow 0.2s, background-color 0.2s;
+    cursor: pointer;
+    align-self: center;
+}
+
