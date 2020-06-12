@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    color: whitesmoke;
+    background-color: grey;
+    font-family: 'Orbitron', 'Arial', 'sans-serif';
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    /* overflow-y: hidden; */
+}
+
+h1 {
+  font-family: 'Montserrat', 'Arial', 'sans-serif';
+  color: orange;
+  text-align: center;
+  padding-top: 2%;
+}
+
+
+/*------ Reusable ----- */
+
+.fixed {
+    display: flex;
+    background-color: transparent;
+    position: fixed;
+  }
+
+  .centerImg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 50%;
+  }
+
+/*------ Nav ------ */
+
+.leftNav {
+    display: flex;
+    justify-content: flex-start;
+    background-color: white;
+    padding-right: 100%;
+    padding-bottom: 1%;
+  }
+
+  .leftLogos {
+    position: relative;
+    height: 8vh;
+    max-height: 8vw;
+    width: auto;
+    margin-left: 2vh;
+    margin-top: 1vh;
+    background-color: white;
+  }
+
+  .flexBox {
+    display: flex;
+    justify-content: flex-end;
+    background: white;
+}
+
+.navLinks {
+    color: black;
+    font-family: 'Orbitron', 'Arial', 'sans-serif';
+    display: flex;
+    font-size: 1rem;
+    width: auto;
+    margin-right: 4vh;
+    margin-top: 4.2vh;
+    border-radius: 10px;
+    transition: box-shadow 0.2s, background-color 0.2s;
+    cursor: pointer;
+    align-self: center;
+}
+
+/* ------ Title ------ */
+
+#mainLogo { 
+  max-height: 70vh;
+  width: auto;
+  max-width: 80%;
+  padding-top: 10vh;
+  }
+
+  /* ----- Home Body ----- */
+
+  #homeBody {
+    height: 60vh;
+    background-color: white;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .bodyText {
+    margin-top: 3%;
+    margin-left: 1%;
+    color: black;
+
+  }
+
+  .bodyFlex {
+    font-family: 'Montserrat', 'Arial', 'sans-serif';
+    margin-top: 2%;
+    max-width: 100%;
+    resize: both;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+  .bodyItems {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
